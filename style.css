@@ -8,6 +8,8 @@ body {
   font-family: "SL";
   background-color: black;
   color: white;
+  height: 100vh;
+  overflow: hidden;
 }
 .home {
   display: flex;
@@ -15,6 +17,15 @@ body {
   justify-content: space-around;
 }
 
+h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.social {
+  display: flex;
+
+}
 @keyframes heartbeat {
   0% { transform: translate(-50%, -50%) scale(1); }
   50% { transform: translate(-50%, -50%) scale(1.2); }

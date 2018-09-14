@@ -1,9 +1,19 @@
+const ball = document.querySelector("div.ball")
+let mouseX = 0
+let mouseY = 0
+
+function animate () {
+  ball.style.left = mouseX + "px"
+  ball.style.top = mouseY + "px"
+
+  requestAnimationFrame(animate)
+}
+animate()
+
 document.addEventListener("mousemove", function (event) {
-
-  const mouseX = event.pageX
-  const mouseY = event.pageY
-
-  const ball = document.querySelector("div.ball")
+  mouseX = event.pageX
+  mouseY = event.pageY
 
   ball.style.left = mouseX + "px"
+  ball.style.top = mouseY + "px"
 })

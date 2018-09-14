@@ -9,12 +9,18 @@ body {
   background-color: black;
   color: white;
 }
-h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
+
+@keyframes heartbeat {
+  0% { transform: translate(-50%, -50%) scale(1); }
+  50% { transform: translate(-50%, -50%) scale(1.2); }
+  100% { transform: translate(-50%, -50%) scale(1); }
+}
+
 div.ball {
   background-color: white;
   width: 200px;
@@ -24,4 +30,7 @@ div.ball {
   top: 0;
   left: 0;
   transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+/*  animation: heartbeat 5s infinite;*/
 }
+::selection { background: #f0f; color: #f0f;}

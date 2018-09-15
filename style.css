@@ -7,7 +7,7 @@
   src: url("SWB.ttf");
 }
 body {
-  font-size: 16px;
+  font-size: 15px;
   font-family: "SL";
   background-color: black;
   color: white;
@@ -38,13 +38,39 @@ h1 {
   justify-content: center;
 }
 a {
-  padding: 0 35px;
   color: white;
   text-decoration: none;
   font-size: 15px;
   letter-spacing: 0.25em;
   text-transform: uppercase;
 }
+.social > a {
+  padding: 0 35px;
+}
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.marquee {
+  mix-blend-mode: difference;
+  width: 100%;
+  overflow: hidden;
+  padding:0;
+}
+.marquee span {
+  position:relative;
+  padding: 0 20px 0 0;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  overflow:visible;
+  white-space:nowrap;
+}
+
+
 @keyframes heartbeat {
   0% { transform: translate(-50%, -50%) scale(1); }
   50% { transform: translate(-50%, -50%) scale(1.2); }

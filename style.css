@@ -62,12 +62,19 @@ a {
 }
 .marquee span {
   position:relative;
-  padding: 0 20px 0 0;
+  padding: 0 5px 0 0;
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   overflow:visible;
   white-space:nowrap;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+.blink-text:hover {
+  animation: blink 0.2s linear infinite;
 }
 
 

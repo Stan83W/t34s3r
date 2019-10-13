@@ -4,18 +4,38 @@
     <title>Stanislas Wiart : Identity | UI Design | Web Development</title>
     <meta name="description" content="Paris based studio for Digital Design and Identity">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Spectral&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
 
   <body>
     <div class="home">
       <div class="title">
-        <h1>New Website Coming Soon</h1>
+        <h1>Stanislas Wiart</h1>
+        <p class="sub-description">Digital designer & Front-end developer. Creative Director at <a class="blink-text" href="http://www.afk-studio.com/" target="_blank">AFK</a>, a Paris based studio for Digital Design, Identity and Web Development founded in 2019. Working with the talented <a class="blink-text" href="http://www.ravinaolteinn.com/" target="_blank">Ravina Olteinn</a> for brands and companies in the field of fashion, design, architecture and technology. Teaching UI Design at <a class="blink-text" href="https://ecole-du-digital.com" target="_blank">ESD Paris</a> since 2018.</p>
+        <p></p>
+        <div class="links">
 
-        <div class="social">
-          <a class="blink-text" href="https://www.behance.net/stanislas-wiart" target="blank">Behance</a>
-          <a class="blink-text" href="https://github.com/Stan83W" target="blank">Github</a>
-          <a class="blink-text" href="https://www.are.na/stanislas-wiart" target="blank">Arena</a>
+          <div class="social">
+            <p class="sub-description">Social</p>
+            <a class="blink-text" href="https://www.behance.net/stanislas-wiart" target="blank">Behance</a>
+            <a class="blink-text" href="https://github.com/Stan83W" target="blank">Github</a>
+            <a class="blink-text" href="https://www.are.na/stanislas-wiart" target="blank">Arena</a>
+          </div>
+          <div class="social">
+            <p class="sub-description">Featured</p>
+            <a class="blink-text" href="https://klikkentheke.com/websites/time-architecture/" target="blank">Klikkentheke</a>
+            <a class="blink-text" href="https://fontsinuse.com/uses/25015/digdog" target="blank">Font in Use</a>
+            <a class="blink-text" href="https://www.trendlist.org/images/coll-part" target="blank">Trend List</a>
+          </div>
+          <div class="social">
+            <p class="sub-description">Contact</p>
+            <a class="blink-text" href="mailto:stanislas.wiart@gmail.com" target="blank">stanislas.wiart(at)gmail.com</a>
+            <a class="blink-text" href="tel:+330661431120"" target="blank">+33(0)6.61.43.11.20.</a>
+            <a class="blink-text" href="https://www.google.fr/maps/place/73+Rue+Lamarck,+75018+Paris/@48.8900525,2.3347553,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66e5a6e9dcf39:0xa5187b5095148055!8m2!3d48.890049!4d2.336944" target="blank">Paris 18</a>
+          </div>
+
+
         </div>
       </div>
       <div class="ball"></div>
@@ -29,7 +49,7 @@
 
 
 
-  <script src="ball.js"></script>
+  <!-- <script src="ball.js"></script> -->
   <script>
     (function(f){f.fn.marquee=function(x){return this.each(function(){var a=f.extend({},f.fn.marquee.defaults,x),b=f(this),c,h,t,u,k,e=3,y="animation-play-state",n=!1,E=function(a,b,c){for(var e=["webkit","moz","MS","o",""],d=0;d<e.length;d++)e[d]||(b=b.toLowerCase()),a.addEventListener(e[d]+b,c,!1)},F=function(a){var b=[],c;for(c in a)a.hasOwnProperty(c)&&b.push(c+":"+a[c]);b.push();return"{"+b.join(",")+"}"},p={pause:function(){n&&a.allowCss3Support?c.css(y,"paused"):f.fn.pause&&c.pause();b.data("runningStatus",
     "paused");b.trigger("paused")},resume:function(){n&&a.allowCss3Support?c.css(y,"running"):f.fn.resume&&c.resume();b.data("runningStatus","resumed");b.trigger("resumed")},toggle:function(){p["resumed"==b.data("runningStatus")?"pause":"resume"]()},destroy:function(){clearTimeout(b.timer);b.find("*").andSelf().unbind();b.html(b.find(".js-marquee:first").html())}};if("string"===typeof x)f.isFunction(p[x])&&(c||(c=b.find(".js-marquee-wrapper")),!0===b.data("css3AnimationIsSupported")&&(n=!0),p[x]());else{var v;

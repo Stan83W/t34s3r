@@ -102,6 +102,9 @@ a {
   50% { transform: translate(-50%, -50%) scale(1.2); }
   100% { transform: translate(-50%, -50%) scale(1); }
 }
+canvas {
+  vertical-align: bottom;
+}
 
 /*div.ball {
   mix-blend-mode: difference;

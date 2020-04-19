@@ -2,13 +2,17 @@
   font-family: "CAB";
   src: url("CAB.otf");
 }
+@font-face {
+  font-family: "CTR";
+  src: url("CTR.otf");
+}
 
 html, body {
       margin: 0%;
       padding: 0%;
       width: 100%;
       height: 100vh;
-      font-family: "CAB";
+      font-family: "CTR";
       /*background: url(https://media.giphy.com/media/3oEduMhFrYvKk4giac/giphy.gif) no-repeat 50% 50%;*/
       background: black;
       background-size: cover;

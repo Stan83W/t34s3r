@@ -90,7 +90,7 @@ html, body {
       transform: translate(-50%, -50%);
       width: 48vw;
       height: 46vh;
-      background: url(https://media.giphy.com/media/yHBdTwQp0a91e/giphy.gif) no-repeat 50% 50%;
+      /*background: url(https://media.giphy.com/media/yHBdTwQp0a91e/giphy.gif) no-repeat 50% 50%;*/
       background-size: cover;
       animation-delay: 2s;
       /*-webkit-animation: animateGIF 2s cubic-bezier(0,.58,1,.58);*/

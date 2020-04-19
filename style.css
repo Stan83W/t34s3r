@@ -6,6 +6,10 @@
   font-family: "CTR";
   src: url("CTR.otf");
 }
+@font-face {
+  font-family: "AB";
+  src: url("AB.otf");
+}
 
 html, body {
       margin: 0%;
@@ -50,15 +54,15 @@ html, body {
       margin: 0 40px;
       color: grey;
       padding: 0 10px;
-      font-family: Helvetica;
-      font-size: 12px;
+      font-family: "AB";
+      font-size: 10px;
       font-weight: 100;
       /*letter-spacing: 4px;*/
 }
 
 .listensong a {
-  font-family: Helvetica;
-  font-size: 12px;
+  font-family: "AB";
+  font-size: 10px;
   font-weight: 100;
   color: grey;
   text-decoration: none;
@@ -201,9 +205,9 @@ html, body {
 
 .hero-title p {
       color: grey;
-      font-family: Helvetica;
+      font-family: "AB";
       text-transform: uppercase;
-      font-size: 12px;
+      font-size: 10px;
       letter-spacing: 14px;
 }
 
@@ -217,8 +221,8 @@ html, body {
       display: inline-block;
       list-style: none;
       padding: 0 10px;
-      font-family: Helvetica;
-      font-size: 12px;
+      font-family: "AB";
+      font-size: 10px;
       font-weight: 100;
 }
 
@@ -248,9 +252,9 @@ html, body {
 
 #rotated  {
       color: #fff;
-      font-family: Helvetica;
+      font-family: "AB";
       font-weight: 100;
-      font-size: 12px;
+      font-size: 10px;
 }
 
 .rotatethis {

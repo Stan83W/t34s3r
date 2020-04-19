@@ -44,7 +44,7 @@ html, body {
       line-height: 80px;
       margin: 0 40px;
       color: #fff;
-      font-size: 10px;
+      font-size: 16px;
       letter-spacing: 1px;
 }
 
@@ -57,7 +57,7 @@ html, body {
       color: grey;
       padding: 0 10px;
       font-family: "AB";
-      font-size: 10px;
+      font-size: 16px;
       font-weight: 100;
       letter-spacing: 1px;
 }
@@ -264,7 +264,7 @@ html, body {
 
 .rotatethis {
       position: absolute;
-      top: 65%;
+      top: 19%;
       left: 74%;
       transform: translate(-50%, -50%);
       animation: rotating 20s linear infinite;

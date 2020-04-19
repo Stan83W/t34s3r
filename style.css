@@ -98,6 +98,7 @@ html, body {
       background-size: cover;
       animation-delay: 2s;
       /*-webkit-animation: animateGIF 2s cubic-bezier(0,.58,1,.58);*/
+      z-index: 3;
 }
 
 @-webkit-keyframes animateGIF {
@@ -129,6 +130,7 @@ html, body {
       flex-direction: column;
       height: 100%;
       justify-content: center;
+      z-index: 4;
 }
 
 .hero-title h1 {

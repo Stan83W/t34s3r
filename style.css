@@ -44,7 +44,7 @@ html, body {
       line-height: 80px;
       margin: 0 40px;
       color: #fff;
-      font-size: 16px;
+      font-size: 10px;
       letter-spacing: 1px;
 }
 
@@ -57,7 +57,7 @@ html, body {
       color: grey;
       padding: 0 10px;
       font-family: "AB";
-      font-size: 16px;
+      font-size: 10px;
       font-weight: 100;
       letter-spacing: 1px;
 }
@@ -143,11 +143,14 @@ html, body {
 .hero-title h1 {
       color: white;
       text-transform: uppercase;
-      font-size: 90px;
+      font-size: 45px;
       margin-bottom: 0%;
       margin-top: 0;
+      line-height: 0.9;
 }
-
+.hero-title .js-marquee {
+      padding-left: 15px;
+}
 .glitch {
       position: relative;
 }
@@ -295,6 +298,20 @@ html, body {
       }
 }
 
+.outlined {
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}
 
 
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  padding: 0; }
 
+.marquee h1 {
+  position: relative;
+  padding: 0;
+  overflow: visible;
+  white-space: nowrap; 
+}
